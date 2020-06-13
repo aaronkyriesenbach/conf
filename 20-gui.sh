@@ -27,4 +27,3 @@ AddPackage --foreign powerline-fonts-git # Powerline fonts for X11 and the conso
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.
 
 CopyFile /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-CreateDir /etc/sddm.conf.d
