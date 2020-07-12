@@ -20,11 +20,13 @@ IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Gener
 IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
 IgnorePackage --foreign checkra1n # checkra1n is a semi-tethered jailbreak, developed primarily by Luca Todesco (qwertyoruiop). It's based on the checkm8 bootrom exploit released by axi0mx. checkra1n supports iOS 12.3 and newer.
 IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-3010, WF-3520, WF-3530, WF-3540)
+IgnorePackage --foreign etcher-bin # Flash OS images to SD cards & USB drives, safely and easily
 IgnorePackage --foreign filebot # The ultimate TV and Movie Renamer
 IgnorePackage --foreign jetbrains-toolbox # Manage all your JetBrains Projects and Tools
 IgnorePackage --foreign ncurses5-compat-libs # System V Release 4.0 curses emulation library, ABI 5
 IgnorePackage --foreign nvm # Node Version Manager - Simple bash script to manage multiple active node.js versions
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
+IgnorePackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 IgnorePackage --foreign spicetify-cli # Command-line tool to customize Spotify client
 IgnorePackage --foreign webcamoid # Webcamoid is a full featured webcam capture application.
@@ -61,6 +63,7 @@ IgnorePath '/etc/pam.d/*'
 IgnorePath '/etc/passwd'
 IgnorePath '/etc/passwd-'
 IgnorePath '/etc/printcap'
+IgnorePath '/etc/resolv.conf'
 IgnorePath '/etc/shadow'
 IgnorePath '/etc/shadow-'
 IgnorePath '/etc/shells'

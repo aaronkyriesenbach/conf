@@ -66,7 +66,6 @@ AddPackage xorg-xwud # X Window System image undumping utility
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
 AddPackage --foreign equilux-theme # A couple of full-dark, neutral-gray themes (for GTK2, GTK3, Shell, and GDM) using the Equilux palette.
 AddPackage --foreign polybar # A fast and easy-to-use status bar
-#AddPackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.
 
 CopyFile /etc/X11/xorg.conf.d/50-mouse-acceleration.conf

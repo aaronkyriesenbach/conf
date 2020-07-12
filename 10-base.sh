@@ -63,6 +63,5 @@ CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/hooks/microcode_reload.hook
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/nvidia.hook
-CopyFile /etc/resolv.conf
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null
 CreateLink /snap /var/lib/snapd/snap
