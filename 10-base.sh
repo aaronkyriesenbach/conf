@@ -41,6 +41,7 @@ AddPackage the_silver_searcher # Code searching tool similar to Ack, but faster
 AddPackage tree # A directory listing program displaying a depth indented list of files
 AddPackage udiskie # Removable disk automounter using udisks
 AddPackage unzip # For extracting and viewing files in .zip archives
+AddPackage vi # The original ex/vi text editor
 AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
 AddPackage wget # Network utility to retrieve files from the Web
 AddPackage which # A utility to show the full path of commands
