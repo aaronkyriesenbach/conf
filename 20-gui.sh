@@ -25,6 +25,7 @@ AddPackage ttf-font-awesome # Iconic font designed for Bootstrap
 AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
 AddPackage ttf-joypixels # Emoji as a Service (formerly EmojiOne)
 AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
+AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xorg-docs # X.org documentations
 AddPackage xorg-fonts-alias-100dpi # X.org font alias files - 100dpi font familiy
 AddPackage xorg-fonts-alias-75dpi # X.org font alias files - 75dpi font familiy
