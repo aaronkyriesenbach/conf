@@ -5,6 +5,7 @@ AddPackage cups-pdf # PDF printer for cups
 AddPackage dmenu # Generic menu for X
 AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage i3-wm # An improved dynamic tiling window manager
+AddPackage i3lock # Improved screenlocker based upon XCB and PAM
 AddPackage kde-gtk-config # GTK2 and GTK3 Configurator for KDE
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage kscreen # KDE's screen management software
@@ -18,11 +19,15 @@ AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage rxvt-unicode # Unicode enabled rxvt-clone terminal emulator (urxvt)
 AddPackage scrot # Simple command-line screenshot utility for X
 AddPackage sddm # QML based X11 and Wayland display manager
+AddPackage ttf-bitstream-vera # Bitstream Vera fonts.
+AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
 AddPackage ttf-font-awesome # Iconic font designed for Bootstrap
+AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
 AddPackage ttf-joypixels # Emoji as a Service (formerly EmojiOne)
+AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
 AddPackage xorg-docs # X.org documentations
-AddPackage xorg-fonts-100dpi # X.org 100dpi fonts
-AddPackage xorg-fonts-75dpi # X.org 75dpi fonts
+AddPackage xorg-fonts-alias-100dpi # X.org font alias files - 100dpi font familiy
+AddPackage xorg-fonts-alias-75dpi # X.org font alias files - 75dpi font familiy
 AddPackage xorg-iceauth # ICE authority file utility
 AddPackage xorg-luit # Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
 AddPackage xorg-server # Xorg X server
@@ -58,8 +63,8 @@ AddPackage xorg-xwd # X Window System image dumping utility
 AddPackage xorg-xwininfo # Command-line utility to print information about windows on an X server
 AddPackage xorg-xwud # X Window System image undumping utility
 
+AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
 AddPackage --foreign equilux-theme # A couple of full-dark, neutral-gray themes (for GTK2, GTK3, Shell, and GDM) using the Equilux palette.
-AddPackage --foreign opensiddur-hebrew-fonts # The Open Siddur Project's Unicode Hebrew font pack. A large collection of open source Hebrew fonts, as well as a few for Latin, Greek, Cyrillic, Arabic, and Amharic
 AddPackage --foreign polybar # A fast and easy-to-use status bar
 AddPackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.

@@ -3,6 +3,7 @@ AddPackage automake # A GNU tool for automatically creating Makefiles
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage binutils # A set of programs to assemble and manipulate binary and object files
 AddPackage bison # The GNU general-purpose parser generator
+AddPackage clang # C language family frontend for LLVM
 AddPackage dhcpcd # RFC2131 compliant DHCP client daemon
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
@@ -14,6 +15,7 @@ AddPackage gnome-keyring # Stores passwords and encryption keys
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage groff # GNU troff text-formatting system
 AddPackage htop # Interactive process viewer
+AddPackage lib32-glibc # GNU C Library (32-bit)
 AddPackage libtool # A generic library support script
 AddPackage linux # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
@@ -36,9 +38,11 @@ AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage texinfo # GNU documentation system for on-line information and printed output
 AddPackage the_silver_searcher # Code searching tool similar to Ack, but faster
+AddPackage tree # A directory listing program displaying a depth indented list of files
 AddPackage udiskie # Removable disk automounter using udisks
 AddPackage unzip # For extracting and viewing files in .zip archives
 AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
+AddPackage wget # Network utility to retrieve files from the Web
 AddPackage which # A utility to show the full path of commands
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music
 AddPackage zip # Compressor/archiver for creating and modifying zipfiles
