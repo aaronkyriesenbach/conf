@@ -1,4 +1,5 @@
 AddPackage ark # Archiving Tool
+AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
 AddPackage firefox # Standalone web browser from mozilla.org
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
@@ -7,5 +8,4 @@ AddPackage playerctl # mpris media player controller and lib for spotify, vlc, a
 AddPackage seahorse # GNOME application for managing PGP keys.
 AddPackage vlc # Multi-platform MPEG, VCD/DVD, and DivX player
 
-AddPackage --foreign google-chrome # The popular and trusted web browser by Google (Stable Channel)
 AddPackage --foreign spotify # A proprietary music streaming service
