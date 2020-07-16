@@ -1,3 +1,5 @@
+IgnorePackage cups # The CUPS Printing System - daemon package
+IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage dpkg # The Debian Package Manager tools
 IgnorePackage grub # GNU GRand Unified Bootloader
 IgnorePackage handbrake-cli # Multithreaded video transcoder (CLI)
@@ -29,6 +31,7 @@ IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 IgnorePackage --foreign spicetify-cli # Command-line tool to customize Spotify client
+IgnorePackage --foreign ventoy-bin # A new multiboot USB solution (Binary)
 IgnorePackage --foreign webcamoid # Webcamoid is a full featured webcam capture application.
 IgnorePackage --foreign zoom # Video Conferencing and Web Conferencing Service
 

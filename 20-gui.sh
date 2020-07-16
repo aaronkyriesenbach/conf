@@ -1,8 +1,7 @@
 AddPackage adobe-source-han-sans-jp-fonts # Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
 AddPackage arc-gtk-theme # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
-AddPackage cups # The CUPS Printing System - daemon package
-AddPackage cups-pdf # PDF printer for cups
 AddPackage dmenu # Generic menu for X
+AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage i3-wm # An improved dynamic tiling window manager
 AddPackage i3lock # Improved screenlocker based upon XCB and PAM
