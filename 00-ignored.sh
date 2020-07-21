@@ -14,6 +14,7 @@ IgnorePackage npm # A package manager for javascript
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 IgnorePackage opera # A fast and secure web browser
+IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client
 IgnorePackage xf86-video-vesa # X.org vesa video driver
