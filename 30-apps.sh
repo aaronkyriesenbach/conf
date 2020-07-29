@@ -1,4 +1,3 @@
-AddPackage ark # Archiving Tool
 AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
 AddPackage firefox # Standalone web browser from mozilla.org

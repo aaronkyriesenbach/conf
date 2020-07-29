@@ -5,15 +5,11 @@ AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage i3-wm # An improved dynamic tiling window manager
 AddPackage i3lock # Improved screenlocker based upon XCB and PAM
-AddPackage kde-gtk-config # GTK2 and GTK3 Configurator for KDE
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
-AddPackage kscreen # KDE's screen management software
 AddPackage lxappearance # Feature-rich GTK+ theme switcher of the LXDE Desktop
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage paprefs # Configuration dialog for PulseAudio
 AddPackage pavucontrol # PulseAudio Volume Control
-AddPackage plasma-desktop # KDE Plasma Desktop
-AddPackage powerdevil # Manages the power consumption settings of a Plasma Shell
 AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage rxvt-unicode # Unicode enabled rxvt-clone terminal emulator (urxvt)
 AddPackage scrot # Simple command-line screenshot utility for X
