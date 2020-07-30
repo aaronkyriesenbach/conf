@@ -26,6 +26,7 @@ IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-
 IgnorePackage --foreign etcher-bin # Flash OS images to SD cards & USB drives, safely and easily
 IgnorePackage --foreign filebot # The ultimate TV and Movie Renamer
 IgnorePackage --foreign jetbrains-toolbox # Manage all your JetBrains Projects and Tools
+IgnorePackage --foreign mysql57 # Fast SQL database server, community edition, v5.7
 IgnorePackage --foreign ncurses5-compat-libs # System V Release 4.0 curses emulation library, ABI 5
 IgnorePackage --foreign nvm # Node Version Manager - Simple bash script to manage multiple active node.js versions
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
