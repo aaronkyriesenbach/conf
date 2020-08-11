@@ -1,3 +1,4 @@
+IgnorePackage calibre # Ebook management application (python2 build)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage dpkg # The Debian Package Manager tools
