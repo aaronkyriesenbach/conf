@@ -65,3 +65,4 @@ AddPackage --foreign polybar # A fast and easy-to-use status bar
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.
 
 CopyFile /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+CopyFile /etc/pacman.d/hooks/nvidia.hook
