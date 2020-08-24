@@ -26,6 +26,7 @@ AddPackage neofetch # A CLI system information tool written in BASH that support
 AddPackage numlockx # Turns on the numlock key in X11.
 AddPackage openssh # Premier connectivity tool for remote login with the SSH protocol
 AddPackage pacman # A library-based package manager with dependency support
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 AddPackage patch # A utility to apply patch files to original sources
 AddPackage pkgconf # Package compiler and linker metadata toolkit
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
@@ -61,6 +62,7 @@ CopyFile /etc/makepkg.conf
 CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/hooks/microcode_reload.hook
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
+CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
 CopyFile /etc/tmpfiles.d/media.conf
 CopyFile /etc/udev/rules.d/99-udisks2.rules
