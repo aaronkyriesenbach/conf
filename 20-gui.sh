@@ -1,12 +1,12 @@
 AddPackage adobe-source-han-sans-jp-fonts # Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
 AddPackage arc-gtk-theme # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
 AddPackage dmenu # Generic menu for X
-AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage i3-wm # An improved dynamic tiling window manager
 AddPackage i3lock # Improved screenlocker based upon XCB and PAM
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage lxappearance # Feature-rich GTK+ theme switcher of the LXDE Desktop
+AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage paprefs # Configuration dialog for PulseAudio
 AddPackage pavucontrol # PulseAudio Volume Control
@@ -14,12 +14,16 @@ AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage rxvt-unicode # Unicode enabled rxvt-clone terminal emulator (urxvt)
 AddPackage scrot # Simple command-line screenshot utility for X
 AddPackage sddm # QML based X11 and Wayland display manager
+AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
+AddPackage swayidle # Idle management daemon for Wayland
+AddPackage swaylock # Screen locker for Wayland
 AddPackage ttf-bitstream-vera # Bitstream Vera fonts.
 AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
 AddPackage ttf-font-awesome # Iconic font designed for Bootstrap
 AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
 AddPackage ttf-joypixels # Emoji as a Service (formerly EmojiOne)
 AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
+AddPackage wofi # launcher for wlroots-based wayland compositors
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xorg-docs # X.org documentations
 AddPackage xorg-fonts-alias-100dpi # X.org font alias files - 100dpi font familiy
@@ -61,6 +65,7 @@ AddPackage xorg-xwud # X Window System image undumping utility
 
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
 AddPackage --foreign equilux-theme # A couple of full-dark, neutral-gray themes (for GTK2, GTK3, Shell, and GDM) using the Equilux palette.
+AddPackage --foreign grimshot # A helper for screenshots within sway.
 AddPackage --foreign polybar # A fast and easy-to-use status bar
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.
 

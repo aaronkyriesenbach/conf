@@ -3,6 +3,7 @@ AddPackage automake # A GNU tool for automatically creating Makefiles
 AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage binutils # A set of programs to assemble and manipulate binary and object files
 AddPackage bison # The GNU general-purpose parser generator
+AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
 AddPackage dhcpcd # RFC2131 compliant DHCP client daemon
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
