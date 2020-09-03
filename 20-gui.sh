@@ -5,7 +5,6 @@ AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage i3-wm # An improved dynamic tiling window manager
 AddPackage i3lock # Improved screenlocker based upon XCB and PAM
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
-AddPackage lxappearance # Feature-rich GTK+ theme switcher of the LXDE Desktop
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage paprefs # Configuration dialog for PulseAudio
