@@ -6,6 +6,7 @@ AddPackage i3-wm # An improved dynamic tiling window manager
 AddPackage i3lock # Improved screenlocker based upon XCB and PAM
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage mako # Lightweight notification daemon for Wayland
+AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage paprefs # Configuration dialog for PulseAudio
 AddPackage pavucontrol # PulseAudio Volume Control
@@ -22,6 +23,7 @@ AddPackage ttf-font-awesome # Iconic font designed for Bootstrap
 AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
 AddPackage ttf-joypixels # Emoji as a Service (formerly EmojiOne)
 AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
+AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
 AddPackage wofi # launcher for wlroots-based wayland compositors
 AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xorg-docs # X.org documentations
