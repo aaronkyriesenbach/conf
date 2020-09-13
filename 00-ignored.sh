@@ -1,12 +1,12 @@
 IgnorePackage calibre # Ebook management application (python2 build)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
-IgnorePackage dpkg # The Debian Package Manager tools
 IgnorePackage grub # GNU GRand Unified Bootloader
 IgnorePackage handbrake-cli # Multithreaded video transcoder (CLI)
 IgnorePackage intel-ucode # Microcode update files for Intel CPUs
 IgnorePackage iwd # Internet Wireless Daemon
 IgnorePackage libdvdcss # Portable abstraction library for DVD decryption
+IgnorePackage lutris # Open Gaming Platform
 IgnorePackage mariadb # Fast SQL database server, derived from MySQL
 IgnorePackage mysql-workbench # A cross-platform, visual database design tool developed by MySQL
 IgnorePackage networkmanager # Network connection manager and user applications
@@ -19,7 +19,6 @@ IgnorePackage qutebrowser # A keyboard-driven, vim-like browser based on PyQt5
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client
-IgnorePackage xf86-video-vesa # X.org vesa video driver
 
 IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Generic based package)
 IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
@@ -35,8 +34,8 @@ IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 IgnorePackage --foreign spicetify-cli # Command-line tool to customize Spotify client
+IgnorePackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
 IgnorePackage --foreign ventoy-bin # A new multiboot USB solution (Binary)
-IgnorePackage --foreign webcamoid # Webcamoid is a full featured webcam capture application.
 IgnorePackage --foreign zoom # Video Conferencing and Web Conferencing Service
 
 IgnorePath '/boot/*'
@@ -61,6 +60,7 @@ IgnorePath '/etc/locale.conf'
 IgnorePath '/etc/locale.gen'
 IgnorePath '/etc/localtime'
 IgnorePath '/etc/machine-id'
+IgnorePath '/etc/mkinitcpio.conf'
 IgnorePath '/etc/mkinitcpio.d/linux.preset'
 IgnorePath '/etc/modprobe.d/*'
 IgnorePath '/etc/openvpn/*'
