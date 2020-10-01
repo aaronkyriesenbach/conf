@@ -1,3 +1,4 @@
+IgnorePackage android-tools # Android platform tools
 IgnorePackage calibre # Ebook management application (python2 build)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
@@ -15,10 +16,12 @@ IgnorePackage npm # A package manager for javascript
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 IgnorePackage opera # A fast and secure web browser
+IgnorePackage picard # Official MusicBrainz tagger
 IgnorePackage qutebrowser # A keyboard-driven, vim-like browser based on PyQt5
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client
+IgnorePackage transmission-gtk # Fast, easy, and free BitTorrent client (GTK+ GUI)
 
 IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Generic based package)
 IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
@@ -45,6 +48,7 @@ IgnorePath '/etc/adjtime'
 IgnorePath '/etc/arch-release'
 IgnorePath '/etc/ca-certificates/*'
 IgnorePath '/etc/cups/*'
+IgnorePath '/etc/dhcpcd.conf'
 IgnorePath '/etc/docker/*'
 IgnorePath '/etc/environment'
 IgnorePath '/etc/fstab'
@@ -71,6 +75,7 @@ IgnorePath '/etc/pam.d/*'
 IgnorePath '/etc/passwd'
 IgnorePath '/etc/passwd-'
 IgnorePath '/etc/printcap'
+IgnorePath '/etc/pulse/*'
 IgnorePath '/etc/resolv.conf'
 IgnorePath '/etc/shadow'
 IgnorePath '/etc/shadow-'

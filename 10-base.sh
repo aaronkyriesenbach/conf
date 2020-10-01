@@ -21,6 +21,7 @@ AddPackage linux # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
 AddPackage m4 # The GNU macro processor
 AddPackage make # GNU make utility to maintain groups of programs
+AddPackage man-db # A utility for reading man pages
 AddPackage mlocate # Merging locate/updatedb implementation
 AddPackage nano # Pico editor clone with enhancements
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
