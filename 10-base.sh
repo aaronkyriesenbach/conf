@@ -32,6 +32,7 @@ AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 AddPackage patch # A utility to apply patch files to original sources
 AddPackage pkgconf # Package compiler and linker metadata toolkit
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
+AddPackage realtime-privileges # Realtime privileges for users
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage rsync # A file transfer program to keep remote files in sync
 AddPackage screen # Full-screen window manager that multiplexes a physical terminal
@@ -58,7 +59,6 @@ AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package
 AddPackage --foreign yadm-git # Yet Another Dotfiles Manager
 AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
 
-CopyFile /etc/dhcpcd.conf
 CopyFile /etc/fuse.conf
 CopyFile /etc/makepkg.conf
 CopyFile /etc/pacman.conf

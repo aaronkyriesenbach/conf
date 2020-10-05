@@ -5,8 +5,6 @@ AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulato
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
-AddPackage paprefs # Configuration dialog for PulseAudio
-AddPackage pavucontrol # PulseAudio Volume Control
 AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage rxvt-unicode # Unicode enabled rxvt-clone terminal emulator (urxvt)
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
