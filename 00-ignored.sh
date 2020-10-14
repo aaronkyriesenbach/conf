@@ -1,5 +1,4 @@
 IgnorePackage android-tools # Android platform tools
-IgnorePackage calibre # Ebook management application (python2 build)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage grub # GNU GRand Unified Bootloader
@@ -15,9 +14,9 @@ IgnorePackage nodejs # Evented I/O for V8 javascript
 IgnorePackage npm # A package manager for javascript
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
-IgnorePackage opera # A fast and secure web browser
+IgnorePackage pavucontrol # PulseAudio Volume Control
+IgnorePackage pulseaudio # A featureful, general-purpose sound server
 IgnorePackage picard # Official MusicBrainz tagger
-IgnorePackage qutebrowser # A keyboard-driven, vim-like browser based on PyQt5
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client

@@ -4,6 +4,7 @@ AddPackage base # Minimal package set to define a basic Arch Linux installation
 AddPackage binutils # A set of programs to assemble and manipulate binary and object files
 AddPackage bison # The GNU general-purpose parser generator
 AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
+AddPackage cmake # A cross-platform open-source make system
 AddPackage dhcpcd # RFC2131 compliant DHCP client daemon
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
@@ -25,6 +26,7 @@ AddPackage man-db # A utility for reading man pages
 AddPackage mlocate # Merging locate/updatedb implementation
 AddPackage nano # Pico editor clone with enhancements
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
+AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage numlockx # Turns on the numlock key in X11.
 AddPackage openssh # Premier connectivity tool for remote login with the SSH protocol
 AddPackage pacman # A library-based package manager with dependency support
@@ -43,9 +45,8 @@ AddPackage texinfo # GNU documentation system for on-line information and printe
 AddPackage the_silver_searcher # Code searching tool similar to Ack, but faster
 AddPackage tree # A directory listing program displaying a depth indented list of files
 AddPackage udiskie # Removable disk automounter using udisks
+AddPackage unp # A script for unpacking a wide variety of archive formats
 AddPackage unzip # For extracting and viewing files in .zip archives
-AddPackage vi # The original ex/vi text editor
-AddPackage vim # Vi Improved, a highly configurable, improved version of the vi text editor
 AddPackage wget # Network utility to retrieve files from the Web
 AddPackage which # A utility to show the full path of commands
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music

@@ -16,4 +16,4 @@ AddPackage xorg-xeyes # Follow the mouse/SHAPE extension X demo
 AddPackage zathura # Minimalistic document viewer
 AddPackage zathura-pdf-mupdf # PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)
 
-AddPackage --foreign spotify # A proprietary music streaming service
+AddPackage --foreign spotify-dev # A proprietary music streaming service
