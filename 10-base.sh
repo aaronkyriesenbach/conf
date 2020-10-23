@@ -16,6 +16,7 @@ AddPackage gnome-keyring # Stores passwords and encryption keys
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage groff # GNU troff text-formatting system
 AddPackage htop # Interactive process viewer
+AddPackage inetutils # A collection of common network programs
 AddPackage lib32-glibc # GNU C Library (32-bit)
 AddPackage libtool # A generic library support script
 AddPackage linux # The Linux kernel and modules
