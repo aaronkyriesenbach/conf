@@ -2,7 +2,6 @@ IgnorePackage android-tools # Android platform tools
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage grub # GNU GRand Unified Bootloader
-IgnorePackage handbrake-cli # Multithreaded video transcoder (CLI)
 IgnorePackage intel-ucode # Microcode update files for Intel CPUs
 IgnorePackage iwd # Internet Wireless Daemon
 IgnorePackage libdvdcss # Portable abstraction library for DVD decryption
@@ -20,7 +19,6 @@ IgnorePackage picard # Official MusicBrainz tagger
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client
-IgnorePackage transmission-gtk # Fast, easy, and free BitTorrent client (GTK+ GUI)
 
 IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Generic based package)
 IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
@@ -35,7 +33,6 @@ IgnorePackage --foreign nvm # Node Version Manager - Simple bash script to manag
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign powerline-fonts-git # Powerline fonts for X11 and the console
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
-IgnorePackage --foreign spicetify-cli # Command-line tool to customize Spotify client
 IgnorePackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
 IgnorePackage --foreign ventoy-bin # A new multiboot USB solution (Binary)
 IgnorePackage --foreign zoom # Video Conferencing and Web Conferencing Service

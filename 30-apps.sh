@@ -16,4 +16,5 @@ AddPackage xorg-xeyes # Follow the mouse/SHAPE extension X demo
 AddPackage zathura # Minimalistic document viewer
 AddPackage zathura-pdf-mupdf # PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)
 
+AddPackage --foreign spicetify-cli # Command-line tool to customize Spotify client
 AddPackage --foreign spotify # A proprietary music streaming service

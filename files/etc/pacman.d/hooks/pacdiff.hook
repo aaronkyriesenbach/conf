@@ -8,4 +8,4 @@ Target = *
 [Action]
 Description = Running pacdiff utility
 When = PostTransaction
-Exec = /usr/bin/pacdiff
+Exec = /usr/bin/env DIFFPROG='nvim -d' /usr/bin/pacdiff
