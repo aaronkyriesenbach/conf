@@ -1,5 +1,6 @@
 AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
 AddPackage chromium # A web browser built for speed, simplicity, and security
+AddPackage cloc # Count lines of code
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
 AddPackage discord # All-in-one voice and text chat for gamers that's free and secure.
 AddPackage firefox # Standalone web browser from mozilla.org

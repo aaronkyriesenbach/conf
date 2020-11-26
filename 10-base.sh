@@ -1,3 +1,4 @@
+AddPackage arch-install-scripts # Scripts to aid in installing Arch Linux
 AddPackage autoconf # A GNU tool for automatically configuring source code
 AddPackage automake # A GNU tool for automatically creating Makefiles
 AddPackage base # Minimal package set to define a basic Arch Linux installation
@@ -72,4 +73,3 @@ CopyFile /etc/tmpfiles.d/media.conf
 CopyFile /etc/udev/rules.d/99-udisks2.rules
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null
-CreateLink /snap /var/lib/snapd/snap
