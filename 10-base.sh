@@ -44,8 +44,6 @@ AddPackage sl # Steam Locomotive runs across your terminal when you type "sl" as
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage texinfo # GNU documentation system for on-line information and printed output
-AddPackage the_silver_searcher # Code searching tool similar to Ack, but faster
-AddPackage tree # A directory listing program displaying a depth indented list of files
 AddPackage udiskie # Removable disk automounter using udisks
 AddPackage unp # A script for unpacking a wide variety of archive formats
 AddPackage unzip # For extracting and viewing files in .zip archives
@@ -65,7 +63,6 @@ AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper wri
 CopyFile /etc/fuse.conf
 CopyFile /etc/makepkg.conf
 CopyFile /etc/pacman.conf
-CopyFile /etc/pacman.d/hooks/microcode_reload.hook
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
