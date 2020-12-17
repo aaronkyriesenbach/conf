@@ -1,4 +1,5 @@
 IgnorePackage android-tools # Android platform tools
+IgnorePackage cantata # Qt5 client for the music player daemon (MPD)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage grub # GNU GRand Unified Bootloader
@@ -7,6 +8,7 @@ IgnorePackage iwd # Internet Wireless Daemon
 IgnorePackage libdvdcss # Portable abstraction library for DVD decryption
 IgnorePackage lutris # Open Gaming Platform
 IgnorePackage mariadb # Fast SQL database server, derived from MySQL
+IgnorePackage mpd # Flexible, powerful, server-side application for playing music
 IgnorePackage mysql-workbench # A cross-platform, visual database design tool developed by MySQL
 IgnorePackage networkmanager # Network connection manager and user applications
 IgnorePackage nodejs # Evented I/O for V8 javascript
@@ -15,6 +17,7 @@ IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 IgnorePackage pavucontrol # PulseAudio Volume Control
 IgnorePackage pulseaudio # A featureful, general-purpose sound server
+IgnorePackage pycharm-community-edition # Python IDE for Professional Developers
 IgnorePackage picard # Official MusicBrainz tagger
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
@@ -65,6 +68,7 @@ IgnorePath '/etc/mkinitcpio.d/linux.preset'
 IgnorePath '/etc/modprobe.d/*'
 IgnorePath '/etc/openvpn/*'
 IgnorePath '/etc/os-release'
+IgnorePath '/etc/pacman.conf'
 IgnorePath '/etc/pacman.d/gnupg/*'
 IgnorePath '/etc/pacman.d/mirrorlist'
 IgnorePath '/etc/pam.d/*'

@@ -29,7 +29,6 @@ AddPackage mlocate # Merging locate/updatedb implementation
 AddPackage nano # Pico editor clone with enhancements
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
-AddPackage numlockx # Turns on the numlock key in X11.
 AddPackage openssh # Premier connectivity tool for remote login with the SSH protocol
 AddPackage pacman # A library-based package manager with dependency support
 AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
@@ -62,7 +61,6 @@ AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper wri
 
 CopyFile /etc/fuse.conf
 CopyFile /etc/makepkg.conf
-CopyFile /etc/pacman.conf
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules

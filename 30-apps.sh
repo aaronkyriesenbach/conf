@@ -5,6 +5,7 @@ AddPackage discord # All-in-one voice and text chat for gamers that's free and s
 AddPackage firefox # Standalone web browser from mozilla.org
 AddPackage gthumb # Image browser and viewer for the GNOME Desktop
 AddPackage imv # Image viewer for Wayland and X11
+AddPackage lastpass-cli # LastPass command line interface tool
 AddPackage nemo # Cinnamon file manager (Nautilus fork)
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage seahorse # GNOME application for managing PGP keys.

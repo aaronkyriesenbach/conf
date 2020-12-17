@@ -5,6 +5,7 @@ AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulato
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
+AddPackage paprefs # Configuration dialog for PulseAudio
 AddPackage pulseaudio # A featureful, general-purpose sound server
 AddPackage pulseeffects # Audio Effects for Pulseaudio Applications
 AddPackage python-pywal # Generate and change colorschemes on the fly
@@ -18,8 +19,9 @@ AddPackage ttf-jetbrains-mono # Typeface for developers, by JetBrains
 AddPackage ttf-joypixels # Emoji as a Service (formerly EmojiOne)
 AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
+AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
 AddPackage wofi # launcher for wlroots-based wayland compositors
-AddPackage xorg-server-xwayland # run X clients under wayland
+AddPackage xorg-xwayland # run X clients under wayland
 
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
 AddPackage --foreign grimshot # A helper for screenshots within sway.
