@@ -15,8 +15,6 @@ IgnorePackage nodejs # Evented I/O for V8 javascript
 IgnorePackage npm # A package manager for javascript
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
-IgnorePackage pavucontrol # PulseAudio Volume Control
-IgnorePackage pulseaudio # A featureful, general-purpose sound server
 IgnorePackage pycharm-community-edition # Python IDE for Professional Developers
 IgnorePackage picard # Official MusicBrainz tagger
 IgnorePackage steam # Valve's digital software delivery system

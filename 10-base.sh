@@ -64,7 +64,5 @@ CopyFile /etc/makepkg.conf
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
-CopyFile /etc/tmpfiles.d/media.conf
-CopyFile /etc/udev/rules.d/99-udisks2.rules
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null

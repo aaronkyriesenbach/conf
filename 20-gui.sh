@@ -6,6 +6,7 @@ AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage paprefs # Configuration dialog for PulseAudio
+AddPackage pavucontrol # PulseAudio Volume Control
 AddPackage pulseaudio # A featureful, general-purpose sound server
 AddPackage pulseeffects # Audio Effects for Pulseaudio Applications
 AddPackage python-pywal # Generate and change colorschemes on the fly
