@@ -6,7 +6,6 @@ AddPackage binutils # A set of programs to assemble and manipulate binary and ob
 AddPackage bison # The GNU general-purpose parser generator
 AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
 AddPackage cmake # A cross-platform open-source make system
-AddPackage dhcpcd # RFC2131 compliant DHCP client daemon
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
 AddPackage flex # A tool for generating text-scanning programs
@@ -43,8 +42,9 @@ AddPackage sl # Steam Locomotive runs across your terminal when you type "sl" as
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage texinfo # GNU documentation system for on-line information and printed output
+AddPackage tmux # A terminal multiplexer
 AddPackage udiskie # Removable disk automounter using udisks
-AddPackage unp # A script for unpacking a wide variety of archive formats
+AddPackage unrar # The RAR uncompression program
 AddPackage unzip # For extracting and viewing files in .zip archives
 AddPackage wget # Network utility to retrieve files from the Web
 AddPackage which # A utility to show the full path of commands
@@ -53,6 +53,8 @@ AddPackage zip # Compressor/archiver for creating and modifying zipfiles
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
+AddPackage --foreign autojump # A faster way to navigate your filesystem from the command line
+AddPackage --foreign ly # TUI display manager
 AddPackage --foreign needrestart # Restart daemons after library updates.
 AddPackage --foreign systemd-numlockontty # Systemd service + script, automatically activate numpad on ttys
 AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package managers
@@ -64,5 +66,9 @@ CopyFile /etc/makepkg.conf
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
+CopyFile /etc/polkit-1/rules.d/10-openvpn-resolved.rules
+CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
+CopyFile /etc/sysctl.d/20-quiet-printk.conf
+CopyFile /etc/systemd/resolved.conf
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null

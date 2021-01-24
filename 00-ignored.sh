@@ -1,5 +1,4 @@
 IgnorePackage android-tools # Android platform tools
-IgnorePackage cantata # Qt5 client for the music player daemon (MPD)
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage grub # GNU GRand Unified Bootloader
@@ -11,8 +10,6 @@ IgnorePackage mariadb # Fast SQL database server, derived from MySQL
 IgnorePackage mpd # Flexible, powerful, server-side application for playing music
 IgnorePackage mysql-workbench # A cross-platform, visual database design tool developed by MySQL
 IgnorePackage networkmanager # Network connection manager and user applications
-IgnorePackage nodejs # Evented I/O for V8 javascript
-IgnorePackage npm # A package manager for javascript
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 IgnorePackage pycharm-community-edition # Python IDE for Professional Developers
@@ -60,6 +57,7 @@ IgnorePath '/etc/ld.so.cache'
 IgnorePath '/etc/locale.conf'
 IgnorePath '/etc/locale.gen'
 IgnorePath '/etc/localtime'
+IgnorePath '/etc/ly/save'
 IgnorePath '/etc/machine-id'
 IgnorePath '/etc/mkinitcpio.conf'
 IgnorePath '/etc/mkinitcpio.d/linux.preset'
@@ -80,8 +78,11 @@ IgnorePath '/etc/shadow-'
 IgnorePath '/etc/shells'
 IgnorePath '/etc/ssl/*'
 IgnorePath '/etc/sudoers'
-IgnorePath '/etc/systemd/*'
+IgnorePath '/etc/systemd/network/*'
+IgnorePath '/etc/systemd/system/*'
+IgnorePath '/etc/systemd/user/*'
 IgnorePath '/lost+found'
 IgnorePath '/opt/spotify/*'
+IgnorePath '/opt/ventoy/log.txt'
 IgnorePath '/usr/*'
 IgnorePath '/var/*'
