@@ -6,9 +6,6 @@ AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage pavucontrol # PulseAudio Volume Control
-AddPackage pipewire # Server and user space API to deal with multimedia pipelines
-AddPackage pipewire-pulse # Server and user space API to deal with multimedia pipelines (PulseAudio replacement)
-AddPackage pulseeffects # Audio Effects for Pulseaudio Applications
 AddPackage python-dbus # Python bindings for DBUS
 AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager

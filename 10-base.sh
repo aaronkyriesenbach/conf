@@ -56,10 +56,10 @@ AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign autojump # A faster way to navigate your filesystem from the command line
 AddPackage --foreign ly # TUI display manager
 AddPackage --foreign needrestart # Restart daemons after library updates.
+AddPackage --foreign paru-bin # AUR helper based on yay
 AddPackage --foreign systemd-numlockontty # Systemd service + script, automatically activate numpad on ttys
 AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package managers
 AddPackage --foreign yadm-git # Yet Another Dotfiles Manager
-AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
 
 CopyFile /etc/fuse.conf
 CopyFile /etc/makepkg.conf
