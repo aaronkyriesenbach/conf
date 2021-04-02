@@ -1,13 +1,10 @@
 AddPackage adobe-source-han-sans-jp-fonts # Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
 AddPackage arc-gtk-theme # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
-AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage pavucontrol # PulseAudio Volume Control
-AddPackage python-dbus # Python bindings for DBUS
-AddPackage python-pywal # Generate and change colorschemes on the fly
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
 AddPackage swayidle # Idle management daemon for Wayland
 AddPackage swaylock # Screen locker for Wayland
@@ -23,5 +20,6 @@ AddPackage wofi # launcher for wlroots-based wayland compositors
 AddPackage xorg-xwayland # run X clients under wayland
 
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
+AddPackage --foreign dracula-gtk-theme # This theme provides support for GTK-3 and GTK-2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc. Also provides support for KDE plasma.
 AddPackage --foreign grimshot # A helper for screenshots within sway.
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.

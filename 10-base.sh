@@ -12,6 +12,7 @@ AddPackage flex # A tool for generating text-scanning programs
 AddPackage fwupd # Simple daemon to allow session software to update firmware
 AddPackage gcc # The GNU Compiler Collection - C and C++ frontends
 AddPackage git # the fast distributed version control system
+AddPackage gst-plugins-good # Multimedia graph framework - good plugins
 AddPackage gnome-keyring # Stores passwords and encryption keys
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage groff # GNU troff text-formatting system
@@ -28,12 +29,15 @@ AddPackage mlocate # Merging locate/updatedb implementation
 AddPackage nano # Pico editor clone with enhancements
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
+AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage openssh # Premier connectivity tool for remote login with the SSH protocol
 AddPackage pacman # A library-based package manager with dependency support
 AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 AddPackage patch # A utility to apply patch files to original sources
+AddPackage perl-rename # Renames multiple files using Perl regular expressions.
 AddPackage pkgconf # Package compiler and linker metadata toolkit
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
+AddPackage python-tqdm # Fast, Extensible Progress Meter
 AddPackage realtime-privileges # Realtime privileges for users
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage rsync # A file transfer program to keep remote files in sync
