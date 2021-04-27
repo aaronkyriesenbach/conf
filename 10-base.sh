@@ -62,7 +62,7 @@ AddPackage --foreign needrestart # Restart daemons after library updates.
 AddPackage --foreign paru-bin # AUR helper based on yay
 AddPackage --foreign systemd-numlockontty # Systemd service + script, automatically activate numpad on ttys
 AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package managers
-AddPackage --foreign yadm-git # Yet Another Dotfiles Manager
+AddPackage --foreign yadm # Yet Another Dotfiles Manager
 
 CopyFile /etc/ly/config.ini
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
