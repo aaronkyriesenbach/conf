@@ -9,6 +9,7 @@ IgnorePackage lib32-vulkan-icd-loader # Vulkan Installable Client Driver (ICD) L
 IgnorePackage lib32-vulkan-intel # Intel's Vulkan mesa driver (32-bit)
 IgnorePackage libdvdcss # Portable abstraction library for DVD decryption
 IgnorePackage lutris # Open Gaming Platform
+IgnorePackage lvm2 # Logical Volume Manager 2 utilities
 IgnorePackage mariadb # Fast SQL database server, derived from MySQL
 IgnorePackage mpd # Flexible, powerful, server-side application for playing music
 IgnorePackage mysql-workbench # A cross-platform, visual database design tool developed by MySQL

@@ -6,6 +6,7 @@ AddPackage binutils # A set of programs to assemble and manipulate binary and ob
 AddPackage bison # The GNU general-purpose parser generator
 AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
 AddPackage cmake # A cross-platform open-source make system
+AddPackage dosfstools # DOS filesystem utilities
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
 AddPackage flex # A tool for generating text-scanning programs
