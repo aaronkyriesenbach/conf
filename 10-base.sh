@@ -43,7 +43,6 @@ AddPackage reflector # A Python 3 module and script to retrieve and filter the l
 AddPackage rsync # A file transfer program to keep remote files in sync
 AddPackage screen # Full-screen window manager that multiplexes a physical terminal
 AddPackage sl # Steam Locomotive runs across your terminal when you type "sl" as you meant to type "ls".
-AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage sudo # Give certain users the ability to run some commands as root
 AddPackage texinfo # GNU documentation system for on-line information and printed output
 AddPackage tmux # A terminal multiplexer
@@ -65,8 +64,7 @@ AddPackage --foreign systemd-numlockontty # Systemd service + script, automatica
 AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package managers
 AddPackage --foreign yadm-git # Yet Another Dotfiles Manager
 
-CopyFile /etc/fuse.conf
-CopyFile /etc/makepkg.conf
+CopyFile /etc/ly/config.ini
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules

@@ -1,10 +1,12 @@
 AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
+AddPackage chromaprint # Library for extracting fingerprints from any audio source
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
 AddPackage discord # All-in-one voice and text chat for gamers that's free and secure.
 AddPackage dsp # An audio processing program with an interactive mode
 AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage gthumb # Image browser and viewer for the GNOME Desktop
 AddPackage imv # Image viewer for Wayland and X11
+AddPackage libgit2 # A linkable library for Git
 AddPackage namcap # A Pacman package analyzer
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage quodlibet # Music player and music library manager

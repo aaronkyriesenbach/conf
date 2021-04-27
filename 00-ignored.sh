@@ -28,6 +28,8 @@ IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Gener
 IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
 IgnorePackage --foreign checkra1n # checkra1n is a semi-tethered jailbreak, developed primarily by Luca Todesco (qwertyoruiop). It's based on the checkm8 bootrom exploit released by axi0mx. checkra1n supports iOS 12.3 and newer.
 IgnorePackage --foreign clion # C/C++ IDE. Free 30-day trial.
+IgnorePackage --foreign clion-cmake # C/C++ IDE. Free 30-day trial.
+IgnorePackage --foreign clion-jre # C/C++ IDE. Free 30-day trial.
 IgnorePackage --foreign deemix # A deezer downloader built from the ashes of Deezloader Remix
 IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-3010, WF-3520, WF-3530, WF-3540)
 IgnorePackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
@@ -48,6 +50,7 @@ IgnorePath '/etc/cups/*'
 IgnorePath '/etc/dhcpcd.conf'
 IgnorePath '/etc/docker/*'
 IgnorePath '/etc/environment'
+IgnorePath '/etc/fonts/*'
 IgnorePath '/etc/fstab'
 IgnorePath '/etc/group'
 IgnorePath '/etc/group-'
