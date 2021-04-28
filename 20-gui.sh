@@ -1,6 +1,8 @@
 AddPackage adobe-source-han-sans-jp-fonts # Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
 AddPackage arc-gtk-theme # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
+AddPackage kanshi # Dynamic output configuration for Wayland WMs
 AddPackage kitty # A modern, hackable, featureful, OpenGL-based terminal emulator
+AddPackage light # Program to easily change brightness on backlight-controllers.
 AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)

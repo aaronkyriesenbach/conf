@@ -1,6 +1,7 @@
 AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
 AddPackage chromaprint # Library for extracting fingerprints from any audio source
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
+AddPackage dbus-python # Python bindings for DBUS (used for Quod Libet MPRIS integration)
 AddPackage discord # All-in-one voice and text chat for gamers that's free and secure.
 AddPackage dsp # An audio processing program with an interactive mode
 AddPackage fd # Simple, fast and user-friendly alternative to find
