@@ -9,6 +9,7 @@ AddPackage gthumb # Image browser and viewer for the GNOME Desktop
 AddPackage imv # Image viewer for Wayland and X11
 AddPackage libgit2 # A linkable library for Git
 AddPackage namcap # A Pacman package analyzer
+AddPackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 AddPackage playerctl # mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 AddPackage quodlibet # Music player and music library manager
 AddPackage restic # Fast, secure, efficient backup program
@@ -20,5 +21,6 @@ AddPackage xorg-xeyes # Follow the mouse/SHAPE extension X demo
 AddPackage youtube-dl # A command-line program to download videos from YouTube.com and a few more sites
 
 AddPackage --foreign google-chrome # The popular and trusted web browser by Google (Stable Channel)
+AddPackage --foreign openvpn-update-systemd-resolved # OpenVPN systemd-resolved Updater
 AddPackage --foreign spicetify-cli # Command-line tool to customize Spotify client
 AddPackage --foreign spotify # A proprietary music streaming service

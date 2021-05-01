@@ -1,7 +1,9 @@
+IgnorePackage acpi_call # A linux kernel module that enables calls to ACPI methods through /proc/acpi/call
 IgnorePackage android-tools # Android platform tools
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
 IgnorePackage grub # GNU GRand Unified Bootloader
+IgnorePackage handbrake # Multithreaded video transcoder
 IgnorePackage intel-ucode # Microcode update files for Intel CPUs
 IgnorePackage iwd # Internet Wireless Daemon
 IgnorePackage lib32-mesa # An open-source implementation of the OpenGL specification (32-bit)
@@ -16,13 +18,14 @@ IgnorePackage mysql-workbench # A cross-platform, visual database design tool de
 IgnorePackage networkmanager # Network connection manager and user applications
 IgnorePackage nicotine+ # Soulseek music-sharing client, written in python
 IgnorePackage nvidia # NVIDIA drivers for linux
-IgnorePackage openvpn # An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
 IgnorePackage pycharm-community-edition # Python IDE for Professional Developers
 IgnorePackage picard # Official MusicBrainz tagger
+IgnorePackage pulseeffects # Audio Effects for Pulseaudio Applications over Pipewire
 IgnorePackage rbutil # Rockbox Utility
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
 IgnorePackage telegram-desktop # Official Telegram Desktop client
+IgnorePackage tlp # Linux Advanced Power Management
 IgnorePackage vulkan-intel # Intel's Vulkan mesa driver
 
 IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Generic based package)
@@ -34,6 +37,7 @@ IgnorePackage --foreign clion-jre # C/C++ IDE. Free 30-day trial.
 IgnorePackage --foreign deemix # A deezer downloader built from the ashes of Deezloader Remix
 IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-3010, WF-3520, WF-3530, WF-3540)
 IgnorePackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
+IgnorePackage --foreign intellij-idea-ultimate-edition-jre # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
 IgnorePackage --foreign mysql57 # Fast SQL database server, community edition, v5.7
 IgnorePackage --foreign nullpomino-slick # An action puzzle game
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster

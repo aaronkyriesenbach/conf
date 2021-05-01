@@ -7,6 +7,7 @@ AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage pavucontrol # PulseAudio Volume Control
+AddPackage python-psutil # A cross-platform process and system utilities module for Python
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
 AddPackage swayidle # Idle management daemon for Wayland
 AddPackage swaylock # Screen locker for Wayland
@@ -19,6 +20,7 @@ AddPackage ttf-opensans # Sans-serif typeface commissioned by Google
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
 AddPackage wl-clipboard # Command-line copy/paste utilities for Wayland
 AddPackage wofi # launcher for wlroots-based wayland compositors
+AddPackage xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
 AddPackage xorg-xwayland # run X clients under wayland
 
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)

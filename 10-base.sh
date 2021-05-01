@@ -69,9 +69,11 @@ CopyFile /etc/ly/config.ini
 CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
-CopyFile /etc/polkit-1/rules.d/10-openvpn-resolved.rules
 CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CopyFile /etc/systemd/resolved.conf
+
+SetFileProperty /etc/polkit-1/rules.d group polkitd
+SetFileProperty /etc/polkit-1/rules.d mode 750
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null
