@@ -66,7 +66,6 @@ AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package
 AddPackage --foreign yadm # Yet Another Dotfiles Manager
 
 CopyFile /etc/ly/config.ini
-CopyFile /etc/pacman.d/hooks/mirrorupgrade.hook
 CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
 CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
