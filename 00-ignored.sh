@@ -1,7 +1,11 @@
+IgnorePackage acpi # Client for battery, power, and thermal readings
 IgnorePackage acpi_call # A linux kernel module that enables calls to ACPI methods through /proc/acpi/call
 IgnorePackage android-tools # Android platform tools
+IgnorePackage bluez # Daemons for the bluetooth protocol stack
+IgnorePackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
+IgnorePackage easyeffects # Audio Effects for Pipewire applications
 IgnorePackage grub # GNU GRand Unified Bootloader
 IgnorePackage handbrake # Multithreaded video transcoder
 IgnorePackage intel-ucode # Microcode update files for Intel CPUs
@@ -20,7 +24,6 @@ IgnorePackage nicotine+ # Soulseek music-sharing client, written in python
 IgnorePackage nvidia # NVIDIA drivers for linux
 IgnorePackage pycharm-community-edition # Python IDE for Professional Developers
 IgnorePackage picard # Official MusicBrainz tagger
-IgnorePackage pulseeffects # Audio Effects for Pulseaudio Applications over Pipewire
 IgnorePackage rbutil # Rockbox Utility
 IgnorePackage steam # Valve's digital software delivery system
 IgnorePackage sublime-text # Sublime Text is a sophisticated text editor for code, markup and prose
@@ -38,7 +41,10 @@ IgnorePackage --foreign deemix # A deezer downloader built from the ashes of Dee
 IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-3010, WF-3520, WF-3530, WF-3540)
 IgnorePackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
 IgnorePackage --foreign intellij-idea-ultimate-edition-jre # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
+IgnorePackage --foreign libmysqlclient # MySQL client libraries
+IgnorePackage --foreign mysql # Fast SQL database server, community edition
 IgnorePackage --foreign mysql57 # Fast SQL database server, community edition, v5.7
+IgnorePackage --foreign mysql-clients # MySQL client tools
 IgnorePackage --foreign nullpomino-slick # An action puzzle game
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
@@ -73,6 +79,7 @@ IgnorePath '/etc/machine-id'
 IgnorePath '/etc/mkinitcpio.conf'
 IgnorePath '/etc/mkinitcpio.d/linux.preset'
 IgnorePath '/etc/modprobe.d/*'
+IgnorePath '/etc/mysql/*'
 IgnorePath '/etc/openvpn/*'
 IgnorePath '/etc/os-release'
 IgnorePath '/etc/pacman.conf'

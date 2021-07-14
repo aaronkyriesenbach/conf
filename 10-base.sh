@@ -70,7 +70,10 @@ CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
 CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
+CopyFile /etc/systemd/logind.conf
 CopyFile /etc/systemd/resolved.conf
+CopyFile /etc/systemd/sleep.conf
+CopyFile /etc/tlp.conf
 
 SetFileProperty /etc/polkit-1/rules.d group polkitd
 SetFileProperty /etc/polkit-1/rules.d mode 750

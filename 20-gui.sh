@@ -7,6 +7,8 @@ AddPackage mako # Lightweight notification daemon for Wayland
 AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage pavucontrol # PulseAudio Volume Control
+AddPackage pipewire # Low-latency audio/video router and processor
+AddPackage pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
 AddPackage python-psutil # A cross-platform process and system utilities module for Python
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
 AddPackage swayidle # Idle management daemon for Wayland
@@ -24,6 +26,7 @@ AddPackage xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
 AddPackage xorg-xwayland # run X clients under wayland
 
 AddPackage --foreign adobe-base-14-fonts # Adobe base 14 fonts (Courier, Helvetica, Times, Symbol, ZapfDingbats with Type1)
+AddPackage --foreign batsignal # A lightweight battery monitor daemon
 AddPackage --foreign dracula-gtk-theme # This theme provides support for GTK-3 and GTK-2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc. Also provides support for KDE plasma.
 AddPackage --foreign grimshot # A helper for screenshots within sway.
 AddPackage --foreign ttf-iosevka # Typeface family designed for coding, terminal use and technical documents.
