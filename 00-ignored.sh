@@ -32,24 +32,20 @@ IgnorePackage tlp # Linux Advanced Power Management
 IgnorePackage vulkan-intel # Intel's Vulkan mesa driver
 
 IgnorePackage --foreign anydesk-bin # The Fast Remote Desktop Application (Generic based package)
-IgnorePackage --foreign brother-hl2270dw # Brother HL-2270DW CUPS Driver
 IgnorePackage --foreign checkra1n # checkra1n is a semi-tethered jailbreak, developed primarily by Luca Todesco (qwertyoruiop). It's based on the checkm8 bootrom exploit released by axi0mx. checkra1n supports iOS 12.3 and newer.
 IgnorePackage --foreign clion # C/C++ IDE. Free 30-day trial.
 IgnorePackage --foreign clion-cmake # C/C++ IDE. Free 30-day trial.
 IgnorePackage --foreign clion-jre # C/C++ IDE. Free 30-day trial.
 IgnorePackage --foreign deemix # A deezer downloader built from the ashes of Deezloader Remix
-IgnorePackage --foreign epson-inkjet-printer-201212w # Epson printer driver (WF-3010, WF-3520, WF-3530, WF-3540)
+IgnorePackage --foreign globalprotect-openconnect # A GlobalProtect VPN client (GUI) for Linux based on Openconnect and built with Qt5, supports SAML auth mode.
 IgnorePackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
 IgnorePackage --foreign intellij-idea-ultimate-edition-jre # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
-IgnorePackage --foreign libmysqlclient # MySQL client libraries
-IgnorePackage --foreign mysql # Fast SQL database server, community edition
-IgnorePackage --foreign mysql57 # Fast SQL database server, community edition, v5.7
-IgnorePackage --foreign mysql-clients # MySQL client tools
 IgnorePackage --foreign nullpomino-slick # An action puzzle game
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 IgnorePackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
 IgnorePackage --foreign ventoy-bin # A new multiboot USB solution (Binary)
+IgnorePackage --foreign vmware-horizon-client # VMware Horizon Client connect to VMware Horizon virtual desktop
 
 IgnorePath '/boot/*'
 IgnorePath '/etc/.pwd.lock'

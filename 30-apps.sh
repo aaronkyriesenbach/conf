@@ -1,4 +1,5 @@
 AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
+AddPackage bitwarden-cli # The command line vault
 AddPackage chromaprint # Library for extracting fingerprints from any audio source
 AddPackage code # The Open Source build of Visual Studio Code (vscode) editor
 AddPackage dbus-python # Python bindings for DBUS (used for Quod Libet MPRIS integration)

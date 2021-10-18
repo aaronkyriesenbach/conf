@@ -19,6 +19,7 @@ AddPackage go # Core compiler tools for the Go programming language
 AddPackage groff # GNU troff text-formatting system
 AddPackage htop # Interactive process viewer
 AddPackage inetutils # A collection of common network programs
+AddPackage kernel-modules-hook # Keeps your system fully functional after a kernel upgrade
 AddPackage lib32-glibc # GNU C Library (32-bit)
 AddPackage libtool # A generic library support script
 AddPackage linux # The Linux kernel and modules
@@ -37,6 +38,7 @@ AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 AddPackage patch # A utility to apply patch files to original sources
 AddPackage perl-rename # Renames multiple files using Perl regular expressions.
 AddPackage pkgconf # Package compiler and linker metadata toolkit
+AddPackage polkit-gnome # Legacy polkit authentication agent for GNOME
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
 AddPackage python-tqdm # Fast, Extensible Progress Meter
 AddPackage realtime-privileges # Realtime privileges for users
@@ -53,6 +55,7 @@ AddPackage unzip # For extracting and viewing files in .zip archives
 AddPackage wget # Network utility to retrieve files from the Web
 AddPackage which # A utility to show the full path of commands
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music
+AddPackage yadm # Yet Another Dotfiles Manager
 AddPackage zip # Compressor/archiver for creating and modifying zipfiles
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
 
@@ -61,21 +64,16 @@ AddPackage --foreign autojump # A faster way to navigate your filesystem from th
 AddPackage --foreign ly # TUI display manager
 AddPackage --foreign needrestart # Restart daemons after library updates.
 AddPackage --foreign paru-bin # AUR helper based on yay
+AddPackage --foreign systemd-boot-pacman-hook # Pacman hook to upgrade systemd-boot after systemd upgrade.
 AddPackage --foreign systemd-numlockontty # Systemd service + script, automatically activate numpad on ttys
 AddPackage --foreign topgrade # Invoke the upgrade procedure of multiple package managers
-AddPackage --foreign yadm # Yet Another Dotfiles Manager
 
 CopyFile /etc/ly/config.ini
-CopyFile /etc/pacman.d/hooks/pacdiff.hook
 CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
 CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CopyFile /etc/systemd/logind.conf
 CopyFile /etc/systemd/resolved.conf
 CopyFile /etc/systemd/sleep.conf
-CopyFile /etc/tlp.conf
-
-SetFileProperty /etc/polkit-1/rules.d group polkitd
-SetFileProperty /etc/polkit-1/rules.d mode 750
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null
