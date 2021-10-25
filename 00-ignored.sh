@@ -41,6 +41,7 @@ IgnorePackage --foreign globalprotect-openconnect # A GlobalProtect VPN client (
 IgnorePackage --foreign intellij-idea-ultimate-edition # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
 IgnorePackage --foreign intellij-idea-ultimate-edition-jre # An intelligent IDE for Java, Groovy and other programming languages with advanced refactoring features intensely focused on developer productivity.
 IgnorePackage --foreign nullpomino-slick # An action puzzle game
+IgnorePackage --foreign platformio # A cross-platform code builder and library manager
 IgnorePackage --foreign postman-bin # Build, test, and document your APIs faster
 IgnorePackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 IgnorePackage --foreign teams # Microsoft Teams for Linux is your chat-centered workspace in Office 365
