@@ -73,6 +73,8 @@ CopyFile /etc/polkit-1/rules.d/10-manage-openvpn.rules
 CopyFile /etc/polkit-1/rules.d/20-manage-reflector.rules
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CopyFile /etc/systemd/logind.conf
+CopyFile /etc/systemd/network/10-wired.network
+CopyFile /etc/systemd/network/20-wireless.network
 CopyFile /etc/systemd/resolved.conf
 CopyFile /etc/systemd/sleep.conf
 
