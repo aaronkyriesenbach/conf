@@ -5,6 +5,8 @@ IgnorePackage bluez # Daemons for the bluetooth protocol stack
 IgnorePackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 IgnorePackage cups # The CUPS Printing System - daemon package
 IgnorePackage cups-pdf # PDF printer for cups
+IgnorePackage dmidecode # Desktop Management Interface table related utilities
+IgnorePackage edk2-ovmf # Firmware for Virtual Machines (x86_64, i686)
 IgnorePackage dnsmasq # Lightweight, easy to configure DNS forwarder and DHCP server
 IgnorePackage easyeffects # Audio Effects for Pipewire applications
 IgnorePackage globalprotect-openconnect # A GlobalProtect VPN GUI client based on Openconnect and built with Qt5, supports SAML auth mode

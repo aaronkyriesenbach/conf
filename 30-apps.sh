@@ -16,6 +16,7 @@ AddPackage quodlibet # Music player and music library manager
 AddPackage restic # Fast, secure, efficient backup program
 AddPackage seahorse # GNOME application for managing PGP keys.
 AddPackage sox # The Swiss Army knife of sound processing tools
+AddPackage transmission-cli # Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
 AddPackage vlc # Multi-platform MPEG, VCD/DVD, and DivX player
 AddPackage wf-recorder # Screen recorder for wlroots-based compositors such as sway
 AddPackage xorg-xeyes # Follow the mouse/SHAPE extension X demo

@@ -76,5 +76,6 @@ CopyFile /etc/systemd/network/10-wired.network
 CopyFile /etc/systemd/network/20-wireless.network
 CopyFile /etc/systemd/resolved.conf
 CopyFile /etc/systemd/sleep.conf
+CopyFile /etc/udev/rules.d/backlight.rules
 
 CreateLink /etc/udev/rules.d/80-net-setup-link.rules /dev/null

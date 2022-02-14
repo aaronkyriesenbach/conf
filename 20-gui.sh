@@ -10,6 +10,7 @@ AddPackage pavucontrol # PulseAudio Volume Control
 AddPackage pipewire # Low-latency audio/video router and processor
 AddPackage pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
 AddPackage python-psutil # A cross-platform process and system utilities module for Python
+AddPackage qt5-wayland # Provides APIs for Wayland
 AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
 AddPackage swayidle # Idle management daemon for Wayland
 AddPackage swaylock # Screen locker for Wayland
